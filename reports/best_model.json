@@ -1,0 +1,40 @@
+{
+  "arch": "efficientnet_b0",
+  "metrics": {
+    "arch": "efficientnet_b0",
+    "accuracy": 0.8776041666666666,
+    "macro_f1": 0.8677663658200326,
+    "weighted_f1": 0.8794744108269859,
+    "latency_ms_per_image": 11.189017295837402,
+    "model_size_mb": 15.584807395935059,
+    "n_params_M": 4.015234,
+    "score": 0.8948399695009562
+  },
+  "top_confusions": [
+    [
+      "plastic",
+      "metal",
+      11
+    ],
+    [
+      "glass",
+      "metal",
+      10
+    ],
+    [
+      "cardboard",
+      "paper",
+      4
+    ],
+    [
+      "glass",
+      "plastic",
+      3
+    ],
+    [
+      "paper",
+      "metal",
+      3
+    ]
+  ]
+}
