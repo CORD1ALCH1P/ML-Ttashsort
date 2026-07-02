@@ -21,3 +21,8 @@ secrets.toml
 Thumbs.db
 .vscode/
 .idea/
+
+# Служебные файлы Claude Code (сессии, локальные блокировки) — не часть проекта
+.claude/
+
+REPORT.md
